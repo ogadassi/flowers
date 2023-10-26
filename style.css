@@ -1,7 +1,51 @@
-body{
+body {
     text-align: center;
     margin: 20px 80px;
 
     background-color: lightgreen;
-color: rgb(0, 66, 82);
+    color: rgb(0, 66, 82);
+}
+
+h1,h4,p{
+    margin: 30px 80px;
+}
+
+
+a {
+    color: rgb(0, 66, 82);
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: rgb(194, 255, 229);
+    text-shadow: 0px 0px 5px black;
+}
+
+.carousel{
+    width: 70vw;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    top: 24vw;
+    left:0vw
+}
+
+.carousel-control-next{
+    position: absolute;
+    top: 24vw;
+    left: 75vw;
+}
+
+
+.carousel-inner{
+    position: absolute;
+    top: 0vw;
+    left: 8vw
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 50vw;
+    left: 17vw
 }
